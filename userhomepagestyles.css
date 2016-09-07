@@ -1,0 +1,97 @@
+/*
+   Splash User Home page style sheet
+   Author: Michael Haight & Mohamed Saleh
+   Date:   10/31/2015
+
+   Filename: userhomepagestyles.css
+   Supporting Files: none
+
+*/
+
+/* Section Styles */
+
+body {
+	margin: 0px auto;
+	padding: 0px;
+	line-height: 1.5em;
+	width: 98%;
+	max-width: 980px;
+	min-width: 250px;
+	font-family: Verdana, Geneva, sans-serif
+}
+
+header {
+	width: 100%;
+	margin-top: 2em;
+	text-align: center;
+}
+
+section {
+	width: 66%;
+	float: left;
+}
+
+/* Block Styles */
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+   margin: 1em 0em 0em -20em;
+   font-size: 2em;
+}
+
+h2 {
+   display: block;
+   margin: 2em 10em 0em 5em;
+   font-size: 1.5em;
+   padding: 0px;
+   float: left;
+
+}
+
+#StoresInfo {
+   display: block;
+   font-size: 1em;
+   margin: 0em 10em 1em 20em;
+   position: relative;
+   right: 10em;
+   top: 1em;
+   width: 40em;
+   height: 20px
+}
+
+fieldset input {
+   display: inline;
+   position: fixed;
+   float: left;
+   margin: 0em 0em 0em 0em;
+   
+}
+
+p{
+   display: inline;
+   margin: 0em 0em 0em 20px;
+}
+
+#searchbar{
+   display: block;
+   margin: 0em 10em 10em 0em;
+   position: relative;
+   top: 1em;
+   left: 10em;
+   height: 1.3em;
+   width: 30em;
+}
+
+#Go {
+   position: relative;
+   bottom: 11.6em;
+   left: 45em;
+}
+
+aside input {
+   position: relative;
+   width: 7em;
+   height: 3em;
+}

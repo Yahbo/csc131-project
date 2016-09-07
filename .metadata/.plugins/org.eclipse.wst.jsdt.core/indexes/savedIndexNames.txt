@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+/home/yahbo/Desktop/SaleNotifierWebsite/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3410612065.index
+643324137.index
+2588654090.index
+12701549.index
+298131248.index

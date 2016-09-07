@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	   <!-- The Sale Notifier Splash Page
+	        Author: Michael Haight & Mohamed Saleh
+	        Data:   10/30/2015
+			Supporting Files: first_page.png, item_search_results.png, user_item_list_page.png
+	   -->
+	   <meta charset="UTF-8" />
+	   <title>Sale Notifier</title>
+	   <script src="modernizr-1.5.js"></script>
+	   <link href="splashpagestyles.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+	   <header>
+	      <hgroup>
+	      <h1>Sale Notifier</h1>
+	      
+	      </hgroup>
+	   </header>
+
+	   <section>
+	      <article>
+	         <img src="first_page.png"/><h2>Pick Your Stores</h2>
+			 <img src="item_search_results.png"/><h2>Pick Your Items</h2>
+			 <img src="user_item_list_page.png"/><h2>Wait for Sales</h2>
+	      </article>
+	   </section>
+
+	   <!--<aside id="Login">
+		<input type="submit" value="Login" />
+	   </aside> -->
+	   
+	   <form id="survey" name="survey"
+			action="http://www.redballpizza.com/cgi-bin/survey" method="post">
+		
+							
+				<label for="username"><h6>User Name</h6></label>
+				<input name="username" id="username" 
+					   required="required" />
+				
+				<label for="password"><h6>Password</h6></label>
+				<input name="password" id="password" 
+						required="required" />
+				<input type="submit" value="Login" />
+						
+				<p>New to page that's okay just click register below it's easy and free!</p><p><a href="#">Register</a></p>
+				
+			
+		</form>
+	</body>
+	
+</html>

@@ -1,0 +1,15 @@
+
+
+public class TowersOfHanoi {
+	public static void moveDisk(char origin, char destination){
+		System.out.println(" move top disk from " + origin + " to peg " + destination);
+	}
+	public static void towerOfHanoi(int n, char origin, char destination, char extra){
+		towerOfHanoi(n-1, origin, extra, destination);
+		moveDisk(origin, destination);
+	}
+	public static void main(String[] args){
+		towerOfHanoi(5, 'a', 'b', 'c');
+	}
+
+}

@@ -1,0 +1,16 @@
+127.0.0.1 - - [02/Dec/2015:01:45:54 -0800] "GET / HTTP/1.1" 404 983
+127.0.0.1 - - [02/Dec/2015:01:45:57 -0800] "GET /SaleNotifier/index.html HTTP/1.1" 200 1500
+127.0.0.1 - - [02/Dec/2015:01:45:58 -0800] "GET /SaleNotifier/splashpagestyles.css HTTP/1.1" 200 1449
+127.0.0.1 - - [02/Dec/2015:01:45:58 -0800] "GET /SaleNotifier/user_item_list_page.png HTTP/1.1" 200 220282
+127.0.0.1 - - [02/Dec/2015:01:45:58 -0800] "GET /SaleNotifier/item_search_results.png HTTP/1.1" 200 166110
+127.0.0.1 - - [02/Dec/2015:01:45:58 -0800] "GET /SaleNotifier/first_page.png HTTP/1.1" 200 130580
+127.0.0.1 - - [02/Dec/2015:01:45:58 -0800] "GET /SaleNotifier/modernizr-1.5.js HTTP/1.1" 404 1041
+127.0.0.1 - - [02/Dec/2015:01:45:59 -0800] "GET /favicon.ico HTTP/1.1" 404 1005
+127.0.0.1 - - [02/Dec/2015:01:46:06 -0800] "POST /SaleNotifier/UserLogin HTTP/1.1" 200 2256
+127.0.0.1 - - [02/Dec/2015:01:46:06 -0800] "GET /SaleNotifier/modernizr-1.5.js HTTP/1.1" 404 1041
+127.0.0.1 - - [02/Dec/2015:01:46:29 -0800] "POST /SaleNotifier/RegisterUser HTTP/1.1" 200 1500
+127.0.0.1 - - [02/Dec/2015:01:46:29 -0800] "GET /SaleNotifier/modernizr-1.5.js HTTP/1.1" 404 1041
+127.0.0.1 - - [02/Dec/2015:01:46:34 -0800] "POST /SaleNotifier/UserLogin HTTP/1.1" 200 1687
+127.0.0.1 - - [02/Dec/2015:01:46:34 -0800] "GET /SaleNotifier/modernizr-1.5.js HTTP/1.1" 404 1041
+127.0.0.1 - - [02/Dec/2015:01:46:51 -0800] "POST /SaleNotifier/UserAccount HTTP/1.1" 200 2461
+127.0.0.1 - - [02/Dec/2015:01:46:51 -0800] "GET /SaleNotifier/modernizr-1.5.js HTTP/1.1" 404 1041

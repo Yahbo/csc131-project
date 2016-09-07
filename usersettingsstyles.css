@@ -1,0 +1,109 @@
+/*
+   Splash User Home page style sheet
+   Author: Michael Haight & Mohamed Saleh
+   Date:   10/31/2015
+
+   Filename: usersettingsstyles.css
+   Supporting Files: none
+
+*/
+
+/* Section Styles */
+
+body {
+	margin: 0px auto;
+	padding: 0px;
+	line-height: 1.5em;
+	width: 98%;
+	max-width: 980px;
+	min-width: 250px;
+	font-family: Verdana, Geneva, sans-serif
+}
+
+header {
+	width: 100%;
+	margin-top: 2em;
+	text-align: center;
+}
+
+section {
+	width: 60%;
+	float: left;
+}
+
+/* Block Styles */
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+   margin: 1em 0em 0em 0em;
+   font-size: 2em;
+}
+
+h2 {
+   display: block;
+   margin: 2em 10em 0em 1em;
+   font-size: 1.5em;
+   padding: 0px;
+	 float: left;
+}
+
+h6{
+	
+}
+
+article label {
+	display: inline-block;
+	margin: 0px 0em 0em 110px;
+	float: left;
+}
+
+article input{
+	display: inline;
+	margin: 0px 0px 0px 110px;
+	float: left;
+}
+
+fieldset {
+	width: 1100px;
+	height: 30px;
+	float: left;
+}
+
+fieldset input{
+	display: inline;
+	float: left;
+		margin: 1em 0em 0em 9em;
+}
+
+fieldset p {
+	display: inline;
+	float: left;
+	margin: 0.5em 0em 0em 2em;
+}
+
+aside input{
+	display: block;
+	float: top;
+	margin: 33.1em 0em 0em 87em;
+	height: 70px;
+	position: relative;
+	bottom: 5em;
+}
+
+#Username input {
+	position: relative;
+	top: 5em;
+	right: 14.7em;
+}
+
+aside a{
+	display: inline;
+	float: left;
+	margin: 0em 0em 0em 1em;
+	position: relative;
+	bottom: 52em;
+	left: 90em;
+	font-size: 14px;
+}

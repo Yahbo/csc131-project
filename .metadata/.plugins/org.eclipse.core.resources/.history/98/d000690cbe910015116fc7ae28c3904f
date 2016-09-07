@@ -1,0 +1,54 @@
+package sale.app;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class SaleTracker {
+	
+	//validates that the user is in the database
+	public static boolean validateUser(String username, String password){
+		
+		boolean userExists = false;
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+		} catch (ClassNotFoundException e1) {
+			System.out.println("1ST SALE TRACKER ERROR");
+		}
+		
+		Connection con = null;
+		try {
+			con = DriverManager.getConnection("jdbc:mysql://:localhost:3306/ShoppingAppDatabase","root","rootpassword");
+		} catch (SQLException e1) {
+			System.out.println("2ND SALE TRACKER ERROR");
+		}
+		
+		PreparedStatement statement = null;
+		try {
+			statement = con.prepareStatement("SELECT * FROM Users;");
+		} catch (SQLException e1) {
+			System.out.println("3RD SALE TRACKER ERROR");
+		}
+		
+		try {
+			ResultSet result = statement.executeQuery();
+			userExists = result.next();
+			
+		} catch (SQLException e) {
+			System.out.println("SALE TRACKER CATCH BLOCK");
+		}
+		return userExists;
+		
+		
+	}
+	public UserBean user = new UserBean();
+	
+	public SaleTracker(String username, String password){
+		user.setUsername(username);
+		user.setPassword(password.toCharArray());
+		user.setEmail("testemail@gmail.com");
+	}
+	
+}

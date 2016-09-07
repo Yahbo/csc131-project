@@ -1,0 +1,69 @@
+/*
+   Splash User Home page style sheet
+   Author: Michael Haight & Mohamed Saleh
+   Date:   10/31/2015
+
+   Filename: userhomepagestyles.css
+   Supporting Files: none
+
+*/
+
+/* Section Styles */
+
+body {
+	margin: 0px auto;
+	padding: 0px;
+
+	width: 98%;
+	max-width: 980px;
+	min-width: 250px;
+	font-family: Verdana, Geneva, sans-serif
+}
+
+header {
+	width: 100%;
+	margin-top: 2em;
+	text-align: center;
+}
+
+section {
+	width: 66%;
+	float: left;
+}
+
+/* Block Styles */
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+   margin: 1em 0em 0em -20em;
+   font-size: 2em;
+}
+
+h2 {
+   display: block;
+   margin: 2em 10em 0em -5em;
+   font-size: 1.5em;
+   padding: 0px;
+}
+
+
+fieldset input {
+   display: block;
+   position: relative;
+   float: left;
+   margin: 0em 0em 0em 1em;
+   height: 25px;
+}
+
+#searchbar{
+   display: block;
+   margin: 0em 10em 10em 0em;
+   position: relative;
+   top: 1em;
+   right: 5em;
+   height: 1.3em;
+   width: 30em;
+}
+
